@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Magistral";
+  src: url("/fonts/Magistral-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mont";
+  src: url("/fonts/Mont-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --background: #12110f;
+    --foreground: #faf6f2;
+    --card: #12110f;
+    --card-foreground: #faf6f2;
+    --popover: #12110f;
+    --popover-foreground: #faf6f2;
+    --primary: #faf6f2;
+    --primary-foreground: #12110f;
+    --secondary: #2a2926;
+    --secondary-foreground: #faf6f2;
+    --muted: #2a2926;
+    --muted-foreground: #a8a29e;
+    --accent: #2a2926;
+    --accent-foreground: #faf6f2;
+    --destructive: #ef4444;
+    --destructive-foreground: #faf6f2;
+    --border: #2a2926;
+    --input: #2a2926;
+    --ring: #faf6f2;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
