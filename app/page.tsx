@@ -143,8 +143,8 @@ export default function Home() {
                         tell you what the next year of your marketing growth will look like.
                       </p>
                       <blockquote className="text-lg font-medium text-orange-400 italic">
-                        &quot;You&apos;re going into uncharted territory. You do not have a solution that&apos;s ready
-                        to go.&quot;
+                        "You&apos;re going into uncharted territory. You do not have a solution that&apos;s ready
+                        to go."
                       </blockquote>
                     </div>
                   </Card>
@@ -337,8 +337,8 @@ export default function Home() {
 
                 <Card className="p-6 bg-orange-950/10 border-orange-500/20">
                   <blockquote className="text-lg font-medium text-orange-400 italic">
-                    &quot;Every breakthrough started as an experiment. We&apos;re not just running your ads—we&apos;re
-                    cultivating your next growth breakthrough.&quot;
+                    "Every breakthrough started as an experiment. We&apos;re not just running your ads—we&apos;re
+                    cultivating your next growth breakthrough."
                   </blockquote>
                 </Card>
               </div>
@@ -581,7 +581,7 @@ export default function Home() {
             <Image src="/logo.png" alt="Libra Growth Labs" width={150} height={30} className="h-6 w-auto" />
           </div>
           <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
-            © {new Date().getFullYear()} Libra Growth Labs. Built for entrepreneurs, by an entrepreneur.
+            © 2025 Libra Growth Labs. Built for entrepreneurs, by an entrepreneur.
           </p>
         </div>
       </footer>
